@@ -4,8 +4,7 @@ const path = require('path');
 
 const app = express();
 const PORT = 3000;
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+
 // Set EJS as the template engine
 app.set('view engine', 'ejs');
 
