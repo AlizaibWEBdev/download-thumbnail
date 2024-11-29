@@ -10,14 +10,13 @@ html {
     scroll-behavior: smooth;
 }
 
-/* <div class="thumbnail">
-                        <img src="https://img.youtube.com/vi/8K2HyDEDf-M/maxresdefault.jpg" alt="High-quality YouTube thumbnail image">
-                        <a href="https://img.youtube.com/vi/8K2HyDEDf-M/maxresdefault.jpg" download="thumbnail.jpg">
-                           Download Thumbnail
-                        </a>
-                    </div> */
+form{
+    gap: 10px;
+}
+header{
+    flex-wrap: wrap;
 
-/* Basic reset for form */
+  }
 .thumbnail {
     display: flex;
     align-items: center;
